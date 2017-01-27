@@ -1,0 +1,9 @@
+var fs = require('fs'),
+    request = require('request');
+
+function (c://tst.txt, /files, callback) {
+  request({uri: url})
+      .pipe(fs.createWriteStream(path))
+      .on('close', function() {
+        callback();
+      });
