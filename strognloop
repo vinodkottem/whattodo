@@ -1,1 +1,21 @@
 {"where":{"ID": 757,"MessageType": "OTP","Active": "Y"},"fields":{"EID":true,"MOP":true,"OTP":true,"SendDateTime":true}}
+
+
+{
+	"where": {
+		"ID": 757,
+		"MessageType": "OTP",
+		"Active": "Y",
+		"TransactionDate": {
+
+			"like": "2015-01-30%"
+
+		}
+	},
+	"fields": {
+		"EID": true,
+		"MobileNumber": true,
+		"OTP": true,
+		"SendDateTime": true
+	}
+}
