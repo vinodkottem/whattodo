@@ -19,3 +19,17 @@
 		"SendDateTime": true
 	}
 }
+
+
+
+
+  	remotes.before('**', function (ctx, next){
+		console.log(ctx.req.remotingContext.methodString);
+		console.log(ctx.req.headers);
+		
+		
+		
+		
+		
+		next();
+	});
