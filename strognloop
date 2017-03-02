@@ -33,3 +33,12 @@
 		
 		next();
 	});
+
+
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "database.json"
+  }
+}
