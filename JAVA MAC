@@ -9,3 +9,7 @@ Matching Java Virtual Machines (2):
 
 /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
 Vinod-MacBook-Pro:~ vinodkottem$ 
+export JAVA_HOME=`/usr/libexec/java_home -v 1.6.0_65-b14-462`
+
+http://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x
+
