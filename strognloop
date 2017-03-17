@@ -54,3 +54,17 @@
   "logoutSessionsOnSensitiveChanges": true,
 }
 
+
+if you try to update instance of data with different id 
+
+{
+  "error": {
+    "name": "Error",
+    "status": 400,
+    "message": "id property (undefined) cannot be updated from undefined to undefined",
+    "statusCode": 400,
+    "stack": "Error: id property (undefined) cannot be updated from undefined to undefined\n    at ModelConstructor.DataAccessObject.updateAttributes.DataAccessObject.patchAttributes (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-datasource-juggler/lib/dao.js:3085:17)\n    at SharedMethod.invoke (/Users/vinodkottem/git/MEDEVPUSH/node_modules/strong-remoting/lib/shared-method.js:263:25)\n    at HttpContext.invoke (/Users/vinodkottem/git/MEDEVPUSH/node_modules/strong-remoting/lib/http-context.js:389:12)\n    at phaseInvoke (/Users/vinodkottem/git/MEDEVPUSH/node_modules/strong-remoting/lib/remote-objects.js:654:9)\n    at runHandler (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/lib/phase.js:135:5)\n    at iterate (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/node_modules/async/lib/async.js:146:13)\n    at Object.async.eachSeries (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/node_modules/async/lib/async.js:162:9)\n    at runHandlers (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/lib/phase.js:144:13)\n    at iterate (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/node_modules/async/lib/async.js:146:13)\n    at /Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/node_modules/async/lib/async.js:157:25\n    at /Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/node_modules/async/lib/async.js:154:25\n    at execStack (/Users/vinodkottem/git/MEDEVPUSH/node_modules/strong-remoting/lib/remote-objects.js:493:7)\n    at RemoteObjects.execHooks (/Users/vinodkottem/git/MEDEVPUSH/node_modules/strong-remoting/lib/remote-objects.js:497:10)\n    at phaseBeforeInvoke (/Users/vinodkottem/git/MEDEVPUSH/node_modules/strong-remoting/lib/remote-objects.js:650:10)\n    at runHandler (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/lib/phase.js:135:5)\n    at iterate (/Users/vinodkottem/git/MEDEVPUSH/node_modules/loopback-phase/node_modules/async/lib/async.js:146:13)"
+  }
+}
+
+
