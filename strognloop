@@ -68,3 +68,12 @@ if you try to update instance of data with different id
 }
 
 
+Model.findById(userid,{
+	    			    "include": [{
+	    			      "relation": "accounts",
+	    			      "scope": {
+	    			    	"where" : { 'Status':{ "neq":  'CLOSED' } }, 
+	    			        "include": ["appointments","todos"]
+	    			      }
+	    			    },{"relation":"profile"}]
+	    			},function(err,userinfo){});
