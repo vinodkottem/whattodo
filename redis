@@ -1,0 +1,7 @@
+download targz extract 
+
+>cd redis-stable 
+>make 
+>sudo make install
+
+>redis-server
