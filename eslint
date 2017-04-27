@@ -1,0 +1,7 @@
+npm install eslint --save-dev  
+
+eslint --init  // if it is installed global
+
+./node_modules/.bin/eslint --init         // if it is installed only in project folder
+
+"no-console":0,
