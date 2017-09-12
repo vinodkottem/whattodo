@@ -22,4 +22,4 @@
 ├── strong-error-handler@1.2.1
 └── underscore@1.8.3
 
-Vinods-MacBook-Pro:DEV vinodkottem$ 
+Vinods-MacBook-Pro:DEV vinodkottem$ sudo find . -name "node_modules" -exec rm -rf '{}' +
